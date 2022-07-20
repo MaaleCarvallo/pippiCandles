@@ -100,6 +100,12 @@ p {
     text-align: left;    
 }
 
+/*Transformación*/
+
+img:hover{
+    transform: scale(1.2);
+}
+
 /*estilos img article*/
 
 .principal img{
