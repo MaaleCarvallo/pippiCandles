@@ -17,10 +17,8 @@ body {
 
 /*estilos header*/
 
-.estiloNav{
+header{
     font-size: large;
-    display: flex;
-    justify-content: center;
     background-color: #C0392B;
     padding: 0;
     position: sticky;
@@ -36,7 +34,6 @@ body {
 ul li{
     list-style-type: none;
     display: flex;
-    
 }
 
 a {
@@ -49,8 +46,7 @@ h1{
     color: black;
     font-weight: bolder;
     font-size: 30px;
-    text-align: center;
-    background-color: #C0392B;
+    text-align: center;  
 }
 
 /*estilos de la section general*/
@@ -133,6 +129,7 @@ img:hover{
     display: flex;
     flex-direction: column;
 
+    padding: 5%;
     width: 50%;
     align-items: center;
     margin-left: 30%;
@@ -144,7 +141,7 @@ img:hover{
 .main__form h2{
     padding: 1em;
     color: #78281F;
-    font-size: 1em;
+    font-size: 25px;
 }
 
 /*estilos historia*/
@@ -256,26 +253,26 @@ footer{
      grid-template-columns: 1fr 4fr 1fr;
      grid-template-areas: 
      "header header header"
+     "nav nav nav"
      "section section aside"
      "section section aside"
      "footer footer footer";
     }   
 
-    header{
-        justify-content: flex-end;
-    }
+   
     h1{
-        color: #F9E79F;           
+        color: #922B21;           
     }
 }
 
 @media (min-width:1024px){
     
-    .main__form{
+    .contacto{
         background-image: url(../images/pippi.png);
         background-position: right;
         background-repeat: no-repeat;
         background-size: 150px;
+        background-color: #F9E79F;
         
     }
 
@@ -285,4 +282,5 @@ footer{
         height: 50px;
         width: 80px;
     }
+    
 }
