@@ -38,7 +38,6 @@ ul li{
 
 a {
     text-decoration: none;
-    color: #F39C12;
 }
 
 h1{
@@ -53,10 +52,11 @@ h1{
 
 
 .pippi a{
-    color: #C0392B;
+    color: #922B21;
     font-size: 20px;
     font-weight: bolder;
 }
+
 
 article{
     background-color: #F9E79F;
@@ -130,9 +130,9 @@ img:hover{
     flex-direction: column;
 
     padding: 5%;
-    width: 50%;
+    width: 70%;
     align-items: center;
-    margin-left: 30%;
+    margin-left: 15%;
     border-radius: 5px;
     background-color: #EC7063;
     color: #78281F;
@@ -144,6 +144,9 @@ img:hover{
     font-size: 25px;
 }
 
+.formFont{
+    font-size: 12px;
+}
 /*estilos historia*/
 
 .frase{
@@ -192,6 +195,8 @@ footer{
     background-color: #EDBB99;
 }
 footer p {
+    margin: 3px;
+    padding: 3px;
     color: black;
     text-align: center;
 }
@@ -240,10 +245,11 @@ footer{
         grid-template-areas: 
         "header header"
         "nav nav"
-        "section aside"
-        "section aside"
+        "section section"
+        "aside aside"
         "footer footer";
-    }    
+    } 
+    
 }
 
 @media (min-width:768px){
