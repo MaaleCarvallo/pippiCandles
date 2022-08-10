@@ -1,0 +1,23 @@
+/*estilos contacto*/
+.main__form{
+    display: flex;
+    flex-direction: column;
+
+    padding: 5%;
+    width: 70%;
+    align-items: center;
+    margin-left: 15%;
+    border-radius: 5px;
+    background-color: #EC7063;
+    color: #78281F;
+
+    h2{
+        padding: 1em;
+        color: #78281F;
+        font-size: 25px;
+    }
+}
+
+.formFont{
+    font-size: 12px;
+}

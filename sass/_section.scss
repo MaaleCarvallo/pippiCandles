@@ -1,0 +1,86 @@
+/*estilos de la section general*/
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Mingzat', sans-serif;
+    color: $h1;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+}
+
+.pippi a {
+    color: #922B21;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+article {
+    background-color: $article;
+}
+
+h2 {
+    color: #CD6155;
+    padding: 40px;
+    margin: 10px;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+}
+
+h4 {
+    padding: 15px;
+    font-style: oblique;
+    font-family: 'Trispace', sans-serif;
+    text-align: center;
+    color: #922B21;
+    letter-spacing: 1px;
+}
+
+p {
+    padding: 5px;
+    margin: 20px;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1;
+    color: #A93226;
+    letter-spacing: 1px;
+}
+
+.volver {
+    display: grid;
+    text-align: left;
+}
+
+
+/*Transformación*/
+
+img:hover {
+    transform: scale(1.1);
+}
+
+
+/*estilos img article*/
+.principal img {
+    display: flex;
+    align-items: flex-start;
+
+    border: 5px solid #C0392B;
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.img__article {
+    border: 5px solid #C0392B;
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+    margin-left: 25%;
+}

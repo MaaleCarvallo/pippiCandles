@@ -1,0 +1,18 @@
+/*productos*/
+
+/*galeria*/
+.galeria{
+    background-color: #FCF3CF;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    justify-items: center;
+}
+
+.imagenes img{
+    border: 5px solid #C0392B;
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+}

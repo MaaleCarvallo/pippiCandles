@@ -1,0 +1,23 @@
+header{
+    font-size: large;
+    background-color: $header-color;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    word-spacing: 3px;
+
+    li{
+        list-style-type: none;
+        display: flex;
+
+        a {
+            text-decoration: none;
+
+        }
+    }
+}
+
+.main__logo{
+    display: none;
+}
