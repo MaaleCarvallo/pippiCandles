@@ -51,6 +51,17 @@ header li a {
   display: none;
 }
 
+.btn-outline-success {
+  color: black;
+  border-color: black;
+}
+
+.btn-outline-success:hover {
+  background-color: #C0392B;
+  color: darkgoldenrod;
+  border-color: darkgoldenrod;
+}
+
 /*estilos de la section general*/
 a {
   text-decoration: none;
@@ -208,6 +219,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: auto;
   background-color: #EDBB99;
 }
 
@@ -244,14 +256,9 @@ nav {
 
 section {
   -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
   -ms-grid-column: 1;
   grid-area: section;
-}
-
-aside {
-  -ms-grid-row: 4;
-  -ms-grid-column: 1;
-  grid-area: aside;
 }
 
 footer {
@@ -266,7 +273,7 @@ footer {
   margin-bottom: 1.5em;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "header" "nav" "section" "aside" "footer";
+      grid-template-areas: "header" "nav" "section" "section" "footer";
   gap: 10px;
 }
 
@@ -275,7 +282,7 @@ footer {
     background-color: #F9E79F;
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header header" "nav nav" "section section" "aside aside" "footer footer";
+        grid-template-areas: "header header" "nav nav" "section section" "section section" "footer footer";
   }
 }
 
@@ -285,7 +292,7 @@ footer {
     margin-bottom: 1em;
     -ms-grid-columns: 1fr 4fr 1fr;
         grid-template-columns: 1fr 4fr 1fr;
-        grid-template-areas: "header header header" "nav nav nav" "section section aside" "section section aside" "footer footer footer";
+        grid-template-areas: "header header header" "nav nav nav" "section section section" "section section section" "footer footer footer";
   }
   h1 {
     color: #922B21;

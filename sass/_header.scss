@@ -21,3 +21,14 @@ header{
 .main__logo{
     display: none;
 }
+
+.btn-outline-success {
+    color: black;
+    border-color: black;
+}
+
+.btn-outline-success:hover{
+    background-color: $header-color; 
+    color: darkgoldenrod;    
+    border-color: darkgoldenrod;
+}
