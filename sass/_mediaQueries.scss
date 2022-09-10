@@ -1,25 +1,20 @@
 @media (min-width:500px){
     .envoltura{
-        background-color: #F9E79F;
-        display: grid;
-        grid-template-areas: 
-        "header header"
-        "nav nav"
-        "section section"
-        "section section"
-        "footer footer";
+        background-color: #F8F9F9;
+      
     } 
 }
-
+ 
 @media (min-width:768px){
     .envoltura{
-     background-color: #EAFAF1;
+     background-color: white;
      grid-template-columns: 1fr 4fr 1fr;
      grid-template-areas: 
      "header header header"
      "nav nav nav"
-     "section section section"
-     "section section section"
+     "section section aside"
+     "section section aside"
+     "section section aside"
      "footer footer footer";
      
     }   
@@ -27,6 +22,22 @@
    
     h1{
         color: #922B21;           
+    }
+
+    aside{
+        display: grid;
+
+        padding: 0;
+        position: sticky;
+        top: 0;
+        left: 0;
+        height: 620px;
+        padding: 10px;
+    }
+
+    .imgAside{
+        width: 190px;
+        height: 500px;
     }
 }
 
@@ -48,4 +59,8 @@
         width: 80px;
     }
     
+    .imgAside{
+        width: 300px;
+        height: auto;
+    }
 }

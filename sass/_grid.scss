@@ -11,6 +11,9 @@ nav{
 section{
     grid-area: section;
 }
+aside{
+    grid-area: aside;
+}
 
 footer{
     grid-area: footer;
@@ -18,7 +21,7 @@ footer{
 
 .envoltura{  
     width: 100%;
-    background-color: #EDBB99;
+    background-color: #FEF5E7;
     margin-bottom: 1.5em;
     padding-bottom: 91px;
     display: grid;

@@ -4,15 +4,15 @@ a {
 }
 
 h1 {
-    font-family: 'Mingzat', sans-serif;
+    font-family: 'Combo', cursive;
     color: $h1;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 }
 
 .pippi a {
-    color: #922B21;
+    color: black;
     font-size: 20px;
     font-weight: bolder;
 }
@@ -21,15 +21,24 @@ h1 {
 article {
     background-color: $article;
 }
+.principalIndex article{
+    height: 100%;
+}
+
+.principalIndex article p{
+    padding: 20px;
+    margin: 10px;
+}
 
 h2 {
-    color: #CD6155;
+    color: black;
     padding: 40px;
     margin: 10px;
     letter-spacing: 1px;
+    font-family: 'Combo', cursive;;
     font-style: normal;
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -53,7 +62,7 @@ p {
     font-size: 16px;
     text-align: justify;
     line-height: 1;
-    color: #A93226;
+    color: black;
     letter-spacing: 1px;
 }
 
@@ -67,22 +76,30 @@ p {
 
 img:hover {
     transform: scale(1.1);
-}
+}  
+
+.imgAside:hover {
+    transform: scale(1);
+} 
 
 
 /*estilos img article*/
 .principal img {
     display: flex;
     align-items: flex-start;
-
-    border: 2px solid #C0392B;
+    
+    float: left;
+    height: 100px;
+    width: 120px;
+    border: 2px solid black;
     margin-top: 15px;
     margin-left: 20px;
+    margin-right: 15px;
 }
 
 .img__article {
-    border: 3px solid #C0392B;
+    height: 300px;
+    border: 3px solid black;
     margin-top: 15px;
     margin-left: auto;
 }
-
